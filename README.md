@@ -54,7 +54,7 @@ The `Student` class has the following properties:
 - `regNo`: Student registration number (unique identifier)
 - `name`: Student name
 - `age`: Student age
-- `department`: Student department/faculty
+- `course`: student course
 - `gpa`: Student grade point average
 
 ## Getting Started
@@ -92,44 +92,36 @@ GET http://localhost:8080/app/students
 
 ```
 GET http://localhost:8080/app/students/2020ICT47
-
-![Screenshot (1044)](https://github.com/user-attachments/assets/a641db9d-22e3-4a18-babe-5e6b0379d184)
-
 ```
+![Screenshot (1044)](https://github.com/user-attachments/assets/a641db9d-22e3-4a18-babe-5e6b0379d184)
 
 ### Add a new student
 
 ```
 POST http://localhost:8080/app/add
 
+```
 ![Screenshot (1051)](https://github.com/user-attachments/assets/e02d92f1-2b8f-40ca-9179-25cedb1b7b93)
 
 ![Screenshot (1045)](https://github.com/user-attachments/assets/1613f056-1645-4e43-b434-640c1404ae87)
 
 
-```
-
 ### Update a student
 
 ```
 PUT http://localhost:8080/app/update/2020ICT100
-
+```
 ![Screenshot (1049)](https://github.com/user-attachments/assets/d17a4665-a051-4c46-b28c-40c7d59bc926)
 
 ![Screenshot (1050)](https://github.com/user-attachments/assets/22c1da91-9092-4cf2-a6fb-59500821e233)
-
-```
 
 ### Delete a student
 
 ```
 DELETE http://localhost:8080/app/students/2020CS31
-
+```
 ![Screenshot (1046)](https://github.com/user-attachments/assets/50d10544-aa6c-4c48-a43e-7856c213455b)
 
 ![Screenshot (1047)](https://github.com/user-attachments/assets/eb081db4-9bae-4cb5-afad-a817176bf465)
-
-
-```
 
 
