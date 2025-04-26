@@ -125,8 +125,7 @@ public class AppController {
 	   }
 	   return "404 Student not found";
    }
-  //find the students whose age between 20-23
-  //Sort the student by gpa
+ 
   
   
 }
